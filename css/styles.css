@@ -9,8 +9,28 @@
   --portfolio-secondary-btn-color: #f5f4fa;  
 }
 
-/* ------p font------ */
+* {
+  outline: 1px solid red;
+}
 
+/* -----reset----- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*--------global---------*/
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -19,25 +39,42 @@ body {
   color: var(--p-color);
 }
 
-/* -----reset----- */
-
-.list {
-  list-style: none;
+img {
+  display: block;
 }
+
 .link {
   text-decoration: none;
   color: inherit;
 }
 .address {
-  font-style: inherit;
+  font-style: normal;
 }
 .btn {  
   border-style: none;  
 }
 
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  /*outline: 2px solid red;*/
+}
+
+.section {
+  padding-bottom: 94px;
+}
+
+
+
+
+
 /* -----header----- */
 
 .header {
+  padding-bottom: 94px;
   background-color: var(--white);
 }
 .logo {
