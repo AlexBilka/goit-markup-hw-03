@@ -11,7 +11,7 @@
   --portfolio-brd: #eeeeee;
 }
 
-/* -----reset----- */
+/*------reset------*/
 h1,
 h2,
 h3,
@@ -65,7 +65,7 @@ img {
   padding-bottom: 94px;
 }
 
-/* -----header----- */
+/*-----header------*/
 
 .header {
   background-color: var(--white);
@@ -134,7 +134,7 @@ img {
   color: var(--accent);
 }
 
-/* -----main----- */
+/*------main------*/
 
 .hero {
   padding: 200px 0;
@@ -176,7 +176,7 @@ img {
   background-color: var(--second-btn-color);
 }
 
-/* -----features----- */
+/*-----features------*/
 
 .features {
   padding-top: 94px;
@@ -202,7 +202,7 @@ img {
 .features-item-text {
 }
 
-/* -----busines----- */
+/*------busines------*/
 
 .business {
 }
@@ -222,7 +222,7 @@ img {
 .business-item {
 }
 
-/* -----team----- */
+/*------team------*/
 
 .team {
   background-color: var(--portfolio-secondary-btn-color);
@@ -237,18 +237,21 @@ img {
 }
 .team-list {
   display: flex;
-  text-align: center;
+  gap: 30px;
 }
 .team-item {
-  padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white);
 }
+/*
 .team-item + .team-item {
   margin-left: 30px;
 }
-.photo-wrap {
-  margin-bottom: 30px;
+*/
+.team-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 .team-name {
   margin-bottom: 10px;
@@ -263,7 +266,7 @@ img {
   line-height: 1.18;
 }
 
-/* -----footer----- */
+/*------footer------*/
 
 .footer {
   background-color: var(--gray);
@@ -294,22 +297,22 @@ img {
   opacity: 60%;
 }
 
-/* -----portfolio----- */
+/*--------portfolio--------*/
 
 .portfolio {
   padding-top: 94px;
 }
-.filter-wrap {
+.filter-list {
   display: flex;
   margin-bottom: 50px;
+  justify-content: center;
+  gap: 8px;
 }
-.portfolio-filter {
-  display: flex;
-  margin: 0 auto;
-}
+/*
 .portfolio .btn-item + .btn-item {
   margin-left: 10px;
 }
+*/
 .filter-btn {
   padding: 6px 22px;
   border-radius: 4px;
