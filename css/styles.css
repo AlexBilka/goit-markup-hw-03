@@ -12,6 +12,7 @@
 }
 
 /*------reset------*/
+
 h1,
 h2,
 h3,
@@ -21,7 +22,6 @@ h6,
 p {
   margin: 0;
 }
-
 ul {
   list-style: none;
   margin: 0;
@@ -29,6 +29,7 @@ ul {
 }
 
 /*--------global---------*/
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -36,13 +37,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--p-color);
 }
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-
 .link {
   text-decoration: none;
   color: inherit;
@@ -53,14 +52,12 @@ img {
 .btn {
   border-style: none;
 }
-
 .container {
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
-
 .section {
   padding-bottom: 94px;
 }
@@ -79,7 +76,6 @@ img {
 .site-nav {
   margin-left: 93px;
 }
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -98,7 +94,6 @@ img {
 .nav-item + .nav-item {
   margin-left: 50px;
 }
-
 .nav-link {
   display: block;
   padding: 32px 0;
@@ -141,12 +136,10 @@ img {
   background-color: var(--gray);
   text-align: center;
 }
-
 .hero-wrap {
   max-width: 696px;
   margin: 0 auto;
 }
-
 .hero-title {
   margin-bottom: 30px;
 
@@ -181,8 +174,6 @@ img {
 .features {
   padding-top: 94px;
 }
-.features-title {
-}
 .features-list {
   display: flex;
 }
@@ -199,13 +190,9 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.features-item-text {
-}
 
 /*------busines------*/
 
-.business {
-}
 .business-item + .business-item {
   margin-left: 30px;
 }
@@ -218,8 +205,6 @@ img {
 }
 .business-list {
   display: flex;
-}
-.business-item {
 }
 
 /*------team------*/
@@ -243,11 +228,6 @@ img {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white);
 }
-/*
-.team-item + .team-item {
-  margin-left: 30px;
-}
-*/
 .team-text {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -281,8 +261,6 @@ img {
 .footer .logo {
   color: var(--white);
 }
-.address-list {
-}
 .address-item + .address-item {
   margin-top: 10px;
 }
@@ -308,11 +286,6 @@ img {
   justify-content: center;
   gap: 8px;
 }
-/*
-.portfolio .btn-item + .btn-item {
-  margin-left: 10px;
-}
-*/
 .filter-btn {
   padding: 6px 22px;
   border-radius: 4px;
@@ -334,8 +307,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-}
-.project-item {
 }
 .project-title {
   margin-bottom: 4px;
